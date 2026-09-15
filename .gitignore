@@ -1,0 +1,14 @@
+﻿build/
+Release/
+Debug/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.vcxproj*
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
