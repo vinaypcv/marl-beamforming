@@ -27,7 +27,7 @@ int main() {
     unsigned __int64 total_cycles = end_cycles - start_cycles;
 
     std::cout << "\n========================================================" << std::endl;
-    std::cout << "      QUALCOMM MODEM DEPLOYMENT PORTABILITY BENCHMARK   " << std::endl;
+    std::cout << "      5G NR MODEM DEPLOYMENT PORTABILITY BENCHMARK   " << std::endl;
     std::cout << "========================================================" << std::endl;
     std::cout << "Predicted Downlink Beam Index:     " << predicted_beam << std::endl;
     std::cout << "Inference Latency:                 " << latency.count() << " microseconds" << std::endl;
@@ -42,3 +42,4 @@ int main() {
     std::cout << "========================================================" << std::endl;
     return 0;
 }
+
